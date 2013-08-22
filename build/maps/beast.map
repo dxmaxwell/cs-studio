@@ -1,0 +1,22 @@
+# Features and Plugins for BEAST.
+
+feature@org.csstudio.alarm.beast.ui.feature=p2IU,id=org.csstudio.alarm.beast.ui.feature.feature.jar,repository=http://localhost:9090
+
+plugin@org.csstudio.alarm.beast=p2IU,id=org.csstudio.alarm.beast,repository=http://localhost:9090
+
+plugin@org.csstudio.alarm.beast.msghist=p2IU,id=org.csstudio.alarm.beast.msghist,repository=http://localhost:9090
+
+plugin@org.csstudio.alarm.beast.annunciator=p2IU,id=org.csstudio.alarm.beast.annunciator,repository=http://localhost:9090
+
+plugin@org.csstudio.alarm.beast.ui=p2IU,id=org.csstudio.alarm.beast.ui,repository=http://localhost:9090
+
+plugin@org.csstudio.alarm.beast.ui.alarmtable=p2IU,id=org.csstudio.alarm.beast.ui.alarmtable,repository=http://localhost:9090
+
+plugin@org.csstudio.alarm.beast.ui.alarmtree=p2IU,id=org.csstudio.alarm.beast.ui.alarmtree,repository=http://localhost:9090
+
+plugin@org.csstudio.alarm.beast.ui.areapanel=p2IU,id=org.csstudio.alarm.beast.ui.areapanel,repository=http://localhost:9090
+
+plugin@org.csstudio.alarm.beast.notifier=p2IU,id=org.csstudio.alarm.beast.notifier,repository=http://localhost:9090
+
+plugin@org.csstudio.alarm.beast.notifier.intro=p2IU,id=org.csstudio.alarm.beast.notifier.intro,repository=http://localhost:9090
+

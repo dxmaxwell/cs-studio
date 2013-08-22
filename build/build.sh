@@ -175,6 +175,8 @@ mv features BuildDirectory
 mv plugins BuildDirectory
 cd ..
 
+cp -r "maps" "$BUILD/BuildDirectory"
+
 # Run the build
 # XXX Doing it in the plugin directory: it was breaking otherwise
 ABSOLUTE_DIR=$PWD
