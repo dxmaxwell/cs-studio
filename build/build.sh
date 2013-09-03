@@ -210,7 +210,17 @@ mkdir "$BUILD/BuildDirectory"
 cd "$BUILD"
 mv features BuildDirectory
 mv plugins BuildDirectory
-cd ..
+
+
+echo "Preparing the P2 maps in BuildDirectory/maps"
+mkdir "BuildDirectory/maps"
+cd "BuildDirectory/maps"
+wget http://download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/orbitBundles-R20130827064939.p2.map
+wget https://raw.github.com/dylan171/cs-studio-thirdparty-p2/master/repository/thirdparty.map
+cd "../../.."
+
+
+
 
 # Run the build
 # XXX Doing it in the plugin directory: it was breaking otherwise

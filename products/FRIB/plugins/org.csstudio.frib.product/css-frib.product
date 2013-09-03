@@ -48,6 +48,7 @@ openFile</programArgs>
       <feature id="org.csstudio.frib.core.feature" version="3.2.1.qualifier"/>
       <feature id="org.csstudio.frib.fribcore.feature" version="3.2.1.qualifier"/>
       <feature id="org.csstudio.frib.applications.feature" version="3.2.1.qualifier"/>
+      <feature id="org.csstudio.libs.orbit.feature" version="1.0.0.qualifier"/>
       <feature id="org.eclipse.rcp"/>
       <feature id="org.eclipse.equinox.p2.user.ui"/>
    </features>
