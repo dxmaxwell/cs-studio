@@ -1,0 +1,6 @@
+
+# Map file declaring the CSS 'beast' plugins in GIT format.
+
+feature@org.csstudio.alarm.beast.ui.feature=GIT,tag=origin/dev-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/features/org.csstudio.alarm.beast.ui.feature
+
+
