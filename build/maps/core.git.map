@@ -4,3 +4,4 @@ feature@org.csstudio.core.build.feature=GIT,tag=origin/dev-build-system,repo=htt
 
 plugin@org.csstudio.utility.speech=GIT,tag=origin/dev-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.speech
 
+plugin@org.csstudio.csdata=GIT,tag=origin/dev-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.csdata
