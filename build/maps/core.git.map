@@ -1,6 +1,6 @@
 # Map file declaring the CSS 'core' plugins in GIT format.
 
-feature@org.csstudio.core.build.feature=GIT,tag=dev-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/build/features/org.csstudio.core.build.feature
+feature@org.csstudio.core.build.feature=GIT,tag=origin/dev-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/build/features/org.csstudio.core.build.feature
 
-plugin@org.csstudio.utility.speech=GIT,tag=dev-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.speech
+plugin@org.csstudio.utility.speech=GIT,tag=origin/dev-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.speech
 
