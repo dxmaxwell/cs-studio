@@ -138,7 +138,7 @@ plugin@org.csstudio.java=GIT,tag=origin/alt-build-system,repo=https://github.com
 
 plugin@org.csstudio.simplepv.pvmanager.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.simplepv.pvmanager.test
 
-plugin@org.csstudio.logging.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.logging.test
+fragment@org.csstudio.logging.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.logging.test
 
 plugin@org.csstudio.platform.libs.epics.win32=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.libs.epics.win32
 
