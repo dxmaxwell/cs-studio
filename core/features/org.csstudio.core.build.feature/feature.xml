@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.core.build.feature"
+      label="Feature"
+      version="1.0.0">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="org.csstudio.boy.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.csstudio.core.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.csstudio.core.util.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.csstudio.eclipse.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.csstudio.libs.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.csstudio.pvmanager.ca.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.csstudio.pvmanager.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.csstudio.pvmanager.jdbc.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.csstudio.pvmanager.pva.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.csstudio.utilities.feature"
+         version="0.0.0"/>
+
+</feature>
