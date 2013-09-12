@@ -17,43 +17,7 @@
    </license>
 
    <includes
-         id="org.csstudio.boy.feature"
-         version="0.0.0"/>
-
-   <includes
          id="org.csstudio.core.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.csstudio.core.util.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.csstudio.eclipse.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.csstudio.libs.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.csstudio.pvmanager.ca.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.csstudio.pvmanager.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.csstudio.pvmanager.jdbc.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.csstudio.pvmanager.pva.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="org.csstudio.utilities.feature"
          version="0.0.0"/>
 
 </feature>
