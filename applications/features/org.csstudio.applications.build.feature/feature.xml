@@ -246,4 +246,32 @@
          version="0.0.0"
          unpack="false"/>
 
+   <plugin
+         id="org.csstudio.platform.libs.jersey"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.coobird.thumbnailator"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.jackrabbit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+    <plugin
+         id="org.apache.ws.commons.util"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>
