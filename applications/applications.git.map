@@ -1,4 +1,4 @@
-!*** This file was generated on September 12, 2013 01:32:07 PM 
+!*** This file was generated on September 13, 2013 11:36:48 AM 
 
 feature@org.csstudio.websuite.feature=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/features/org.csstudio.websuite.feature
 
@@ -52,7 +52,7 @@ plugin@org.csstudio.cagateway=GIT,tag=origin/alt-build-system,repo=https://githu
 
 plugin@org.csstudio.alarm.dbaccess=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.dbaccess
 
-plugin@org.csstudio.swt.widgets.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.widgets.rcp
+fragment@org.csstudio.swt.widgets.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.widgets.rcp
 
 plugin@org.csstudio.config.savevalue.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.config.savevalue.ui
 
@@ -82,29 +82,27 @@ plugin@org.csstudio.unitconversion.ui=GIT,tag=origin/alt-build-system,repo=https
 
 plugin@org.csstudio.diag.epics.pvtree=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.diag.epics.pvtree
 
-plugin@org.csstudio.utility.speech.mbrola=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.speech.mbrola
-
 plugin@org.csstudio.archive.writer=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.writer
 
 plugin@org.csstudio.utility.channelfinder=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.channelfinder
 
-plugin@org.csstudio.domain.desy.softioc.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.domain.desy.softioc.test
+fragment@org.csstudio.domain.desy.softioc.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.domain.desy.softioc.test
 
 plugin@net.coobird.thumbnailator=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/net.coobird.thumbnailator
 
-plugin@org.csstudio.alarm.beast.ui.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.beast.ui.rap
+fragment@org.csstudio.alarm.beast.ui.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.beast.ui.rap
 
 plugin@org.csstudio.archive.config=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.config
 
 plugin@org.csstudio.archive.vtype=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.vtype
 
-plugin@org.csstudio.opibuilder.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.test
+fragment@org.csstudio.opibuilder.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.test
 
 plugin@org.csstudio.opibuilder.adl2boy=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.adl2boy
 
 plugin@org.csstudio.utility.epicsDataBaseCompare=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.epicsDataBaseCompare
 
-plugin@org.csstudio.utility.epicsDataBaseCompare.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.epicsDataBaseCompare.test
+fragment@org.csstudio.utility.epicsDataBaseCompare.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.epicsDataBaseCompare.test
 
 plugin@org.csstudio.channel.opiwidgets=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.channel.opiwidgets
 
@@ -114,7 +112,7 @@ plugin@org.csstudio.alarm.service=GIT,tag=origin/alt-build-system,repo=https://g
 
 plugin@org.csstudio.scan.ui.scantree=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.scan.ui.scantree
 
-plugin@org.csstudio.persister.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.persister.test
+fragment@org.csstudio.persister.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.persister.test
 
 plugin@org.csstudio.email=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.email
 
@@ -132,11 +130,11 @@ plugin@org.slf4j-log4j12=GIT,tag=origin/alt-build-system,repo=https://github.com
 
 plugin@org.csstudio.channel.widgets=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.channel.widgets
 
-plugin@org.csstudio.archive.sdds.server.log4j=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.sdds.server.log4j
+fragment@org.csstudio.archive.sdds.server.log4j=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.sdds.server.log4j
 
 plugin@org.csstudio.opibuilder.examples=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.examples
 
-plugin@org.csstudio.domain.common.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.domain.common.test
+fragment@org.csstudio.domain.common.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.domain.common.test
 
 plugin@org.csstudio.tine2jms=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.tine2jms
 
@@ -160,7 +158,7 @@ plugin@org.csstudio.utility.product=GIT,tag=origin/alt-build-system,repo=https:/
 
 plugin@org.csstudio.ui.menu.app=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ui.menu.app
 
-plugin@org.csstudio.systemopen.win=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.systemopen.win
+fragment@org.csstudio.systemopen.win=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.systemopen.win
 
 plugin@org.csstudio.archive.common.engine=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.engine
 
@@ -174,7 +172,7 @@ plugin@org.csstudio.diag.probe=GIT,tag=origin/alt-build-system,repo=https://gith
 
 plugin@org.csstudio.debugging.jmsmonitor=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.debugging.jmsmonitor
 
-plugin@org.csstudio.opibuilder.alarm=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.alarm
+fragment@org.csstudio.opibuilder.alarm=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.alarm
 
 plugin@org.csstudio.apputil=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.apputil
 
@@ -190,11 +188,11 @@ plugin@org.csstudio.sds.language.script.ui=GIT,tag=origin/alt-build-system,repo=
 
 plugin@org.csstudio.csdata.clipboard=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.csdata.clipboard
 
-plugin@org.csstudio.alarm.jms2ora.log4j=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.jms2ora.log4j
+fragment@org.csstudio.alarm.jms2ora.log4j=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.jms2ora.log4j
 
-plugin@org.csstudio.common.trendplotter.shell.fragment=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.common.trendplotter.shell.fragment
+fragment@org.csstudio.common.trendplotter.shell.fragment=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.common.trendplotter.shell.fragment
 
-plugin@org.csstudio.domain.desy.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.domain.desy.test
+fragment@org.csstudio.domain.desy.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.domain.desy.test
 
 plugin@org.csstudio.diag.icsiocmonitor.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.diag.icsiocmonitor.ui
 
@@ -202,7 +200,7 @@ plugin@org.csstudio.alarm.beast.notifier.intro=GIT,tag=origin/alt-build-system,r
 
 plugin@org.csstudio.scan.log.derby=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.scan.log.derby
 
-plugin@org.csstudio.archive.common.requesttype.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.requesttype.test
+fragment@org.csstudio.archive.common.requesttype.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.requesttype.test
 
 plugin@org.csstudio.utility.nameSpaceBrowser.tine=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.nameSpaceBrowser.tine
 
@@ -244,9 +242,9 @@ plugin@org.csstudio.utility.tine.ui=GIT,tag=origin/alt-build-system,repo=https:/
 
 plugin@org.csstudio.alarm.jms2ora=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.jms2ora
 
-plugin@org.csstudio.swt.widgets.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.widgets.test
+fragment@org.csstudio.swt.widgets.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.widgets.test
 
-plugin@org.csstudio.trends.databrowser2.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.trends.databrowser2.rap
+fragment@org.csstudio.trends.databrowser2.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.trends.databrowser2.rap
 
 plugin@org.csstudio.nams.service.messaging=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.nams.service.messaging
 
@@ -256,11 +254,11 @@ plugin@org.csstudio.ams.distributor=GIT,tag=origin/alt-build-system,repo=https:/
 
 plugin@org.jdom=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.jdom
 
-plugin@org.csstudio.utility.treemodel.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.treemodel.test
+fragment@org.csstudio.utility.treemodel.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.treemodel.test
 
 plugin@org.python=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.python
 
-plugin@org.csstudio.swt.xygraph.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.xygraph.rap
+fragment@org.csstudio.swt.xygraph.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.xygraph.rap
 
 plugin@org.csstudio.sds.importer.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.sds.importer.ui
 
@@ -272,7 +270,7 @@ plugin@org.csstudio.alarm.intro=GIT,tag=origin/alt-build-system,repo=https://git
 
 plugin@org.csstudio.diag.pvmanager.probe=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.diag.pvmanager.probe
 
-plugin@org.csstudio.alarm.treeview.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.treeview.test
+fragment@org.csstudio.alarm.treeview.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.treeview.test
 
 plugin@org.csstudio.sds.language.script=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.sds.language.script
 
@@ -290,7 +288,7 @@ plugin@org.apache.jackrabbit=GIT,tag=origin/alt-build-system,repo=https://github
 
 plugin@org.slf4j=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.slf4j
 
-plugin@org.csstudio.utility.ldap.service.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.ldap.service.test
+fragment@org.csstudio.utility.ldap.service.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.ldap.service.test
 
 plugin@org.csstudio.utility.channel.adapters=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.channel.adapters
 
@@ -310,19 +308,17 @@ plugin@gov.bnl.unitconversion=GIT,tag=origin/alt-build-system,repo=https://githu
 
 plugin@org.csstudio.opibuilder=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder
 
-plugin@org.csstudio.ams.performancetesttool=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.performancetesttool
-
-plugin@org.csstudio.alarm.service.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.service.test
+fragment@org.csstudio.alarm.service.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.service.test
 
 plugin@org.csstudio.ams.delivery=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.delivery
 
 plugin@org.csstudio.dct.intro=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.dct.intro
 
-plugin@org.csstudio.trends.databrowser2.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.trends.databrowser2.rcp
+fragment@org.csstudio.trends.databrowser2.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.trends.databrowser2.rcp
 
 plugin@org.csstudio.utility.ldap.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.ldap.ui
 
-plugin@org.csstudio.apputil.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.apputil.test
+fragment@org.csstudio.apputil.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.apputil.test
 
 plugin@org.csstudio.utility.jms=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.jms
 
@@ -334,7 +330,7 @@ plugin@org.csstudio.sds=GIT,tag=origin/alt-build-system,repo=https://github.com/
 
 plugin@org.csstudio.diag.diles=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.diag.diles
 
-plugin@org.csstudio.archive.common.service.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.service.test
+fragment@org.csstudio.archive.common.service.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.service.test
 
 plugin@org.csstudio.autocomplete.logbook=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.autocomplete.logbook
 
@@ -354,7 +350,7 @@ plugin@org.csstudio.alarm.beast=GIT,tag=origin/alt-build-system,repo=https://git
 
 plugin@org.csstudio.nams.common.activatorUtils=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.nams.common.activatorUtils
 
-plugin@org.csstudio.ams.application.deliverysystem.log4j=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.application.deliverysystem.log4j
+fragment@org.csstudio.ams.application.deliverysystem.log4j=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.application.deliverysystem.log4j
 
 plugin@org.csstudio.application.weightrequest=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.application.weightrequest
 
@@ -368,11 +364,11 @@ plugin@org.csstudio.archive.rdb=GIT,tag=origin/alt-build-system,repo=https://git
 
 plugin@org.csstudio.swt.widgets=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.widgets
 
-plugin@org.csstudio.opibuilder.widgets.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.widgets.rap
+fragment@org.csstudio.opibuilder.widgets.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.widgets.rap
 
 plugin@org.csstudio.utility.channel=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.channel
 
-plugin@org.csstudio.swt.xygraph.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.xygraph.rcp
+fragment@org.csstudio.swt.xygraph.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.xygraph.rcp
 
 plugin@org.csstudio.utility.tine=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.tine
 
@@ -388,15 +384,15 @@ plugin@org.csstudio.opibuilder.widgets=GIT,tag=origin/alt-build-system,repo=http
 
 plugin@com.google.inject.guice.v3=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/com.google.inject.guice.v3
 
-plugin@org.csstudio.ams.application.monitor.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.application.monitor.test
+fragment@org.csstudio.ams.application.monitor.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.application.monitor.test
 
 plugin@org.csstudio.domain.desy.epics=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.domain.desy.epics
 
-plugin@org.csstudio.ams.delivery.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.delivery.test
+fragment@org.csstudio.ams.delivery.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.delivery.test
 
 plugin@org.csstudio.utility.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.test
 
-plugin@org.csstudio.utility.displaybrowser=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.displaybrowser
+plugin@org.csstudio.utility.displayBrowser.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.displaybrowser
 
 plugin@org.csstudio.archive.reader=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.reader
 
@@ -406,7 +402,7 @@ plugin@org.csstudio.graphene=GIT,tag=origin/alt-build-system,repo=https://github
 
 plugin@org.csstudio.archive.engine=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.engine
 
-plugin@org.csstudio.swt.xygraph.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.xygraph.test
+fragment@org.csstudio.swt.xygraph.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.swt.xygraph.test
 
 plugin@org.csstudio.examples=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.examples
 
@@ -414,7 +410,7 @@ plugin@org.csstudio.utility.ldap.service.impl=GIT,tag=origin/alt-build-system,re
 
 plugin@org.csstudio.dct=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.dct
 
-plugin@org.csstudio.archive.common.reader.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.reader.test
+fragment@org.csstudio.archive.common.reader.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.reader.test
 
 plugin@org.csstudio.utility.jmssendcmd=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.jmssendcmd
 
@@ -434,11 +430,11 @@ plugin@org.csstudio.ams.delivery.sms=GIT,tag=origin/alt-build-system,repo=https:
 
 plugin@org.hamcrest=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.hamcrest
 
-plugin@org.csstudio.archive.sdds.server.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.sdds.server.test
+fragment@org.csstudio.archive.sdds.server.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.sdds.server.test
 
 plugin@org.apache.log4j=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.apache.log4j
 
-plugin@org.csstudio.servicelocator.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.servicelocator.test
+fragment@org.csstudio.servicelocator.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.servicelocator.test
 
 plugin@org.csstudio.channel.views=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.channel.views
 
@@ -448,7 +444,7 @@ plugin@org.csstudio.scan.server=GIT,tag=origin/alt-build-system,repo=https://git
 
 plugin@org.csstudio.service.jdbcsample=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.service.jdbcsample
 
-plugin@org.csstudio.cagateway.feature=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.cagateway.feature
+feature@org.csstudio.cagateway.feature=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.cagateway.feature
 
 plugin@com.google.common=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/com.google.common
 
@@ -458,19 +454,19 @@ plugin@org.csstudio.ams.delivery.jms=GIT,tag=origin/alt-build-system,repo=https:
 
 plugin@net.miginfocom.layout=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/net.miginfocom.layout
 
-plugin@org.csstudio.utility.ldapupdater.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.ldapupdater.test
+fragment@org.csstudio.utility.ldapupdater.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.ldapupdater.test
 
 plugin@org.csstudio.opibuilder.converter=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.converter
 
-plugin@org.csstudio.opibuilder.widgets.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.widgets.rcp
+fragment@org.csstudio.opibuilder.widgets.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.widgets.rcp
 
 plugin@org.csstudio.nams.configurator.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.nams.configurator.ui
 
-plugin@org.csstudio.opibuilder.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.rap
+fragment@org.csstudio.opibuilder.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.rap
 
 plugin@org.csstudio.archive.common.requesttype=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.requesttype
 
-plugin@org.csstudio.utility.ldap.service.impl.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.ldap.service.impl.test
+fragment@org.csstudio.utility.ldap.service.impl.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.ldap.service.impl.test
 
 plugin@org.csstudio.numjy=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.numjy
 
@@ -492,7 +488,7 @@ plugin@org.joda.time=GIT,tag=origin/alt-build-system,repo=https://github.com/dyl
 
 plugin@org.csstudio.config.ioconfig.view=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.config.ioconfig.view
 
-plugin@org.csstudio.domain.desy.epics.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.domain.desy.epics.test
+fragment@org.csstudio.domain.desy.epics.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.domain.desy.epics.test
 
 plugin@org.apache.batik=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.apache.batik
 
@@ -504,7 +500,7 @@ plugin@org.csstudio.diag.icsiocmonitor.service=GIT,tag=origin/alt-build-system,r
 
 plugin@org.csstudio.utility.olog.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.utility.olog.ui
 
-plugin@org.csstudio.systemopen.linux=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.systemopen.linux
+fragment@org.csstudio.systemopen.linux=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.systemopen.linux
 
 plugin@org.csstudio.archive.reader.rdb=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.reader.rdb
 
@@ -512,7 +508,7 @@ plugin@org.csstudio.utility.sysmon=GIT,tag=origin/alt-build-system,repo=https://
 
 plugin@org.csstudio.scan.ui.scanmonitor=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.scan.ui.scanmonitor
 
-plugin@org.csstudio.ams.log4j=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.log4j
+fragment@org.csstudio.ams.log4j=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.log4j
 
 plugin@org.csstudio.sds.intro=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.sds.intro
 
@@ -536,9 +532,7 @@ plugin@gov.bnl.channelfinder.api=GIT,tag=origin/alt-build-system,repo=https://gi
 
 plugin@org.csstudio.nams.service.messaging.impl.jms=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.nams.service.messaging.impl.jms
 
-plugin@org.csstudio.common.trendplotter.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.common.trendplotter.test
-
-plugin@org.csstudio.sds.docu=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.sds.docu
+fragment@org.csstudio.common.trendplotter.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.common.trendplotter.test
 
 plugin@org.csstudio.diag.postanalyser=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.diag.postanalyser
 
@@ -550,7 +544,7 @@ plugin@org.csstudio.config.savevalue.rmiserver=GIT,tag=origin/alt-build-system,r
 
 plugin@org.csstudio.alarm.beast.ui.globaltable=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.beast.ui.globaltable
 
-plugin@org.csstudio.archive.reader.rdb.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.reader.rdb.test
+fragment@org.csstudio.archive.reader.rdb.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.reader.rdb.test
 
 plugin@org.csstudio.ams.monitor=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.ams.monitor
 
@@ -560,7 +554,7 @@ plugin@org.csstudio.opibuilder.imagelib=GIT,tag=origin/alt-build-system,repo=htt
 
 plugin@org.csstudio.alarm.jms2ora.service=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.jms2ora.service
 
-plugin@org.csstudio.opibuilder.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.rcp
+fragment@org.csstudio.opibuilder.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.rcp
 
 plugin@org.csstudio.archive.reader.archiverecord=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.reader.archiverecord
 
@@ -568,7 +562,7 @@ plugin@org.csstudio.nams.service.configurationAccess.localStore=GIT,tag=origin/a
 
 plugin@org.csstudio.dummyauthorization=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.dummyauthorization
 
-plugin@org.csstudio.alarm.jms2ora.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.jms2ora.test
+fragment@org.csstudio.alarm.jms2ora.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.jms2ora.test
 
 plugin@org.csstudio.nams.service.history=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.nams.service.history
 
@@ -576,7 +570,7 @@ plugin@org.csstudio.servicelocator=GIT,tag=origin/alt-build-system,repo=https://
 
 plugin@org.csstudio.graphene.opiwidgets=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.graphene.opiwidgets
 
-plugin@org.csstudio.simplepv.utilitypv.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.simplepv.utilitypv.test
+fragment@org.csstudio.simplepv.utilitypv.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.simplepv.utilitypv.test
 
 plugin@org.csstudio.domain.desy.softioc=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.domain.desy.softioc
 
@@ -587,8 +581,6 @@ plugin@org.epics.graphene=GIT,tag=origin/alt-build-system,repo=https://github.co
 plugin@org.csstudio.channel.intro=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.channel.intro
 
 plugin@org.csstudio.archive.common.service.mysqlimpl=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.service.mysqlimpl
-
-plugin@org.csstudio.opibuilder.performanceTest=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.opibuilder.performanceTest
 
 plugin@javax.annotation=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/javax.annotation
 
@@ -610,7 +602,7 @@ plugin@org.csstudio.trends.databrowser2.opiwidget=GIT,tag=origin/alt-build-syste
 
 plugin@org.csstudio.alarm.beast.ui.alarmtable=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.alarm.beast.ui.alarmtable
 
-plugin@org.csstudio.systemopen.mac=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.systemopen.mac
+fragment@org.csstudio.systemopen.mac=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.systemopen.mac
 
 plugin@org.csstudio.management.xmpplogindialog=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.management.xmpplogindialog
 
@@ -646,7 +638,7 @@ plugin@org.csstudio.utility.speech=GIT,tag=origin/alt-build-system,repo=https://
 
 plugin@org.csstudio.config.authorizeid=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.config.authorizeid
 
-plugin@org.csstudio.archive.common.engine.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.engine.test
+fragment@org.csstudio.archive.common.engine.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.engine.test
 
 plugin@org.csstudio.simplepv.utilitypv=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.simplepv.utilitypv
 
@@ -664,7 +656,7 @@ plugin@org.junit-dep=GIT,tag=origin/alt-build-system,repo=https://github.com/dyl
 
 plugin@org.csstudio.service.math=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.service.math
 
-plugin@org.csstudio.archive.common.service.mysqlimpl.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.service.mysqlimpl.test
+fragment@org.csstudio.archive.common.service.mysqlimpl.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.archive.common.service.mysqlimpl.test
 
 plugin@org.csstudio.dct.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/plugins/org.csstudio.dct.ui
 

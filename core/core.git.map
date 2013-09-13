@@ -1,4 +1,4 @@
-!*** This file was generated on September 12, 2013 01:03:42 PM 
+!*** This file was generated on September 13, 2013 11:41:42 AM 
 
 feature@org.csstudio.eclipse.feature=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/features/org.csstudio.eclipse.feature
 
@@ -36,7 +36,7 @@ plugin@org.csstudio.utility.pvmanager.pva=GIT,tag=origin/alt-build-system,repo=h
 
 plugin@org.csstudio.platform.libs.jersey=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.libs.jersey
 
-plugin@org.csstudio.platform.libs.epics.linux=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.libs.epics.linux
+fragment@org.csstudio.platform.libs.epics.linux=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.libs.epics.linux
 
 plugin@org.csstudio.utility.singlesource.rcp=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.utility.singlesource.rcp
 
@@ -52,7 +52,7 @@ plugin@org.csstudio.simplepv.test=GIT,tag=origin/alt-build-system,repo=https://g
 
 plugin@org.csstudio.utility.pvmanager.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.utility.pvmanager.ui
 
-plugin@org.csstudio.dal.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.dal.test
+fragment@org.csstudio.dal.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.dal.test
 
 plugin@org.csstudio.platform.libs.jmock=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.libs.jmock
 
@@ -66,7 +66,7 @@ plugin@org.csstudio.logging=GIT,tag=origin/alt-build-system,repo=https://github.
 
 plugin@org.csstudio.utility.pvmanager.widgets.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.utility.pvmanager.widgets.test
 
-plugin@org.csstudio.java.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.java.test
+fragment@org.csstudio.java.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.java.test
 
 plugin@org.csstudio.platform.jaasAuthentication.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.jaasAuthentication.ui
 
@@ -78,7 +78,7 @@ plugin@org.csstudio.ui.preferences=GIT,tag=origin/alt-build-system,repo=https://
 
 plugin@org.csstudio.utility.singlesource=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.utility.singlesource
 
-plugin@org.csstudio.platform.libs.epics.macosx=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.libs.epics.macosx
+fragment@org.csstudio.platform.libs.epics.macosx=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.libs.epics.macosx
 
 plugin@org.csstudio.platform.jaasAuthentication=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.jaasAuthentication
 
@@ -94,7 +94,7 @@ plugin@org.csstudio.platform.simpledal=GIT,tag=origin/alt-build-system,repo=http
 
 plugin@org.csstudio.utility.pv.simu=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.utility.pv.simu
 
-plugin@org.csstudio.utility.pv.simu.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.utility.pv.simu.test
+fragment@org.csstudio.utility.pv.simu.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.utility.pv.simu.test
 
 plugin@org.csstudio.platform.libs.tine=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.libs.tine
 
@@ -120,7 +120,7 @@ plugin@org.csstudio.utility.pvmanager.widgets=GIT,tag=origin/alt-build-system,re
 
 plugin@org.csstudio.utility.singlesource.rap=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.utility.singlesource.rap
 
-plugin@org.csstudio.data.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.data.test
+fragment@org.csstudio.data.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.data.test
 
 plugin@org.csstudio.security=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.security
 
@@ -136,13 +136,13 @@ plugin@org.csstudio.auth=GIT,tag=origin/alt-build-system,repo=https://github.com
 
 plugin@org.csstudio.java=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.java
 
-plugin@org.csstudio.simplepv.pvmanager.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.simplepv.pvmanager.test
+fragment@org.csstudio.simplepv.pvmanager.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.simplepv.pvmanager.test
 
 fragment@org.csstudio.logging.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.logging.test
 
-plugin@org.csstudio.platform.libs.epics.win32=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.libs.epics.win32
+fragment@org.csstudio.platform.libs.epics.win32=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.libs.epics.win32
 
-plugin@org.csstudio.utility.pv.epics.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.utility.pv.epics.test
+fragment@org.csstudio.utility.pv.epics.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.utility.pv.epics.test
 
 plugin@org.csstudio.openfile=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.openfile
 
@@ -156,7 +156,7 @@ plugin@org.csstudio.csdata.test=GIT,tag=origin/alt-build-system,repo=https://git
 
 plugin@org.csstudio.platform.utility.jms.ui=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.platform.utility.jms.ui
 
-plugin@org.csstudio.remote.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.remote.test
+fragment@org.csstudio.remote.test=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.remote.test
 
 plugin@org.csstudio.rap.ui.util=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=core/plugins/org.csstudio.rap.ui.util
 
