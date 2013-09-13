@@ -1,4 +1,4 @@
-!*** This file was generated on September 13, 2013 11:36:48 AM 
+!*** This file was generated on September 13, 2013 12:50:08 PM 
 
 feature@org.csstudio.websuite.feature=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/features/org.csstudio.websuite.feature
 
@@ -21,6 +21,8 @@ feature@org.csstudio.scan.ui.feature=GIT,tag=origin/alt-build-system,repo=https:
 feature@org.csstudio.olog.feature=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/features/org.csstudio.olog.feature
 
 feature@org.csstudio.channel.feature=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/features/org.csstudio.channel.feature
+
+feature@org.csstudio.applications.build.feature=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/features/org.csstudio.applications.build.feature
 
 feature@org.csstudio.archive.sdds.server.feature=GIT,tag=origin/alt-build-system,repo=https://github.com/dylan171/cs-studio,path=applications/features/org.csstudio.archive.sdds.server.feature
 
