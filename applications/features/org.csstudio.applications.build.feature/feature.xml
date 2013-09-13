@@ -20,6 +20,10 @@
          id="org.csstudio.alarm.beast.ui.feature"
          version="0.0.0"/>
 
+   <includes
+         id="org.csstudio.olog.feature"
+         version="0.0.0"/>
+
    <plugin
          id="org.csstudio.csdata"
          download-size="0"
