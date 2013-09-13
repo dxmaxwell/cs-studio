@@ -23,6 +23,10 @@
    <includes
          id="org.csstudio.olog.feature"
          version="0.0.0"/>
+         
+   <includes
+         id="org.eclipse.rap.runtime.sdk"
+         version="1.4.0"/>
 
    <plugin
          id="org.csstudio.csdata"
