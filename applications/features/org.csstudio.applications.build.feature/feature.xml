@@ -20,6 +20,10 @@
          id="org.csstudio.alarm.beast.ui.feature"
          version="0.0.0"/>
 
+   <requires>
+      <import plugin="org.csstudio.rap.core"/>
+   </requires>
+
    <plugin
          id="org.csstudio.csdata"
          download-size="0"
