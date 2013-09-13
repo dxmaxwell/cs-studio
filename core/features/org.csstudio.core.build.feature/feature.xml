@@ -24,6 +24,10 @@
          id="org.csstudio.core.util.feature"
          version="0.0.0"/>
 
+   <includes
+         id="org.csstudio.eclipse.feature"
+         version="0.0.0"/>
+
    <plugin
          id="org.antlr.runtime"
          download-size="0"
