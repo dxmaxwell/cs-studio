@@ -20,10 +20,6 @@
          id="org.csstudio.alarm.beast.ui.feature"
          version="0.0.0"/>
 
-   <requires>
-      <import plugin="org.csstudio.rap.core"/>
-   </requires>
-
    <plugin
          id="org.csstudio.csdata"
          download-size="0"
@@ -171,6 +167,13 @@
 
    <plugin
          id="javax.mail"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.rap.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
