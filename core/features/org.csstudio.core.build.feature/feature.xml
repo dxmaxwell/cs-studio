@@ -17,6 +17,10 @@
    </license>
 
    <includes
+         id="org.eclipse.rap.runtime.sdk"
+         version="1.4.0"/>
+
+   <includes
          id="org.csstudio.core.feature"
          version="0.0.0"/>
 
