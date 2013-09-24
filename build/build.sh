@@ -212,6 +212,28 @@ mv features BuildDirectory
 mv plugins BuildDirectory
 cd ..
 
+
+echo "Preparing map files"
+mkdir "$BUILD/BuildDirectory/maps"
+if [ ! -f "orbitBundles-R20130827064939.p2.map" ]; then
+  wget -O - "http://download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/orbitBundles-R20130827064939.p2.map" > "$BUILD/BuildDirectory/maps/orbit.p2.map"
+fi
+if [ ! -f "thirdparty.p2.map" ]; then
+  echo "feature@org.csstudio.thirdparty.feature=p2IU,id=org.csstudio.thirdparty.feature.feature.jar,repository=file:/$PWD/build/thirdPartyRepo" >> "$BUILD/BuildDirectory/maps/thirdparty.p2.map"
+fi
+
+# Publish the third party repository. This is a work-around until the projects are organized 
+# into separate repositories, and all plugins and features are fetched during build.
+echo "Publish third party"
+mkdir -p "$PWD/build/thirdPartyRepo"
+java -jar "$PWD"/ext/eclipse/plugins/org.eclipse.equinox.launcher_1.2.*.jar \
+ -application "org.eclipse.equinox.p2.publisher.FeaturesAndBundlesPublisher" \
+  -metadataRepository "file:/$PWD/build/thirdPartyRepo" \
+  -artifactRepository "file:/$PWD/build/thirdPartyRepo" \
+  -source "$PWD/thirdPartyRepo" \
+  -publishArtifacts -compress
+
+
 # Run the build
 # XXX Doing it in the plugin directory: it was breaking otherwise
 ABSOLUTE_DIR=$PWD
