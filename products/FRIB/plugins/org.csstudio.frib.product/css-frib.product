@@ -44,6 +44,7 @@ openFile</programArgs>
    </plugins>
 
    <features>
+      <feature id="org.csstudio.thirdparty.feature" version="1.0.0.qualifier"/>
       <feature id="org.csstudio.frib.eclipse.feature" version="3.2.1.qualifier"/>
       <feature id="org.csstudio.frib.core.feature" version="3.2.1.qualifier"/>
       <feature id="org.csstudio.frib.fribcore.feature" version="3.2.1.qualifier"/>
