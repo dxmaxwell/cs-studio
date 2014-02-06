@@ -24,7 +24,7 @@ import org.eclipse.swt.widgets.Display;
  * @author Xihui Chen
  *
  */
-public class MultiLEDFigure extends AbstractBoolFigure {
+public class MultiLEDFigure extends AbstractMultiFigure {
 
 	Bulb bulb; 
 	private final static int OUTLINE_WIDTH = 2;

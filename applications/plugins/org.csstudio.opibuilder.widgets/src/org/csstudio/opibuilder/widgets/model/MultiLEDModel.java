@@ -16,7 +16,7 @@ import org.csstudio.opibuilder.properties.WidgetPropertyCategory;
  * @author Dylan Maxwell
  *
  */
-public class MultiLEDModel extends AbstractBoolWidgetModel {
+public class MultiLEDModel extends AbstractMultiWidgetModel {
 
 	
 	

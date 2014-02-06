@@ -21,7 +21,7 @@ import org.eclipse.draw2d.IFigure;
  * @author Dylan Maxwell
  *
  */
-public class MultiLEDEditPart extends AbstractBoolEditPart{
+public class MultiLEDEditPart extends AbstractMultiEditPart {
 
 	@Override
 	protected IFigure doCreateFigure() {
