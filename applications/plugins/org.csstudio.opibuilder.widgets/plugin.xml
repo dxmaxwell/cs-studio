@@ -399,6 +399,15 @@
             name="Grid Layout"
             typeId="org.csstudio.opibuilder.widgets.gridLayout">
       </widget>
+      <widget
+            category="Monitors"
+            description="LED that can display multiple colors."
+            editpart_class="org.csstudio.opibuilder.widgets.editparts.MultiLEDEditPart"
+            icon="icons/LED.png"
+            model_class="org.csstudio.opibuilder.widgets.model.MultiLEDModel"
+            name="MultiLED"
+            typeId="org.csstudio.opibuilder.widgets.MultiLED">
+      </widget>
    </extension>
    <extension
          point="org.eclipse.ui.popupMenus">
