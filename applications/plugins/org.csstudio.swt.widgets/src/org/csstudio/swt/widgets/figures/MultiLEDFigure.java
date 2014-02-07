@@ -25,25 +25,25 @@ import org.eclipse.swt.widgets.Display;
  *
  */
 public class MultiLEDFigure extends AbstractMultiFigure {
-
-	Bulb bulb; 
+	
 	private final static int OUTLINE_WIDTH = 2;
 	private final static int SQURE_BORDER_WIDTH = 3;
-	private final static Color DARK_GRAY_COLOR = CustomMediaFactory.getInstance().getColor(
-			CustomMediaFactory.COLOR_DARK_GRAY); 
-	private final static Color WHITE_COLOR = CustomMediaFactory.getInstance().getColor(
-			CustomMediaFactory.COLOR_WHITE); 
-	private final static Color BLACK_COLOR = CustomMediaFactory.getInstance().getColor(
-			CustomMediaFactory.COLOR_BLACK); 
+	private final static Color DARK_GRAY_COLOR = CustomMediaFactory.getInstance().getColor(CustomMediaFactory.COLOR_DARK_GRAY);
+	private final static Color WHITE_COLOR = CustomMediaFactory.getInstance().getColor(CustomMediaFactory.COLOR_WHITE); 
+	private final static Color BLACK_COLOR = CustomMediaFactory.getInstance().getColor(CustomMediaFactory.COLOR_BLACK); 
+	
+	private Bulb bulb;
 	private boolean effect3D = true;
 	private boolean squareLED = false;
+	
+	
 	public MultiLEDFigure() {
 		super();
-		bulb = new Bulb();		
 		setLayoutManager(new XYLayout());
+		bulb = new Bulb();
+		bulb.setBulbColor(stateColors[state]);
 		add(bulb);
-		add(boolLabel);
-		bulb.setBulbColor(booleanValue ? onColor : offColor);		
+		add(label);
 	}
 	
 	/**
@@ -52,6 +52,12 @@ public class MultiLEDFigure extends AbstractMultiFigure {
 	public boolean isEffect3D() {
 		return effect3D;
 	}
+	public void setEffect3D(boolean effect3D) {
+		if(this.effect3D != effect3D) {
+			this.effect3D = effect3D;
+			bulb.setEffect3D(effect3D);
+		}
+	}
 	
 	/**
 	 * @return the squareLED
@@ -59,6 +65,13 @@ public class MultiLEDFigure extends AbstractMultiFigure {
 	public boolean isSquareLED() {
 		return squareLED;
 	}
+	public void setSquareLED(boolean squareLED) {
+		if(this.squareLED != squareLED) {
+			this.squareLED = squareLED;
+			bulb.setVisible(!squareLED);
+		}
+	}
+
 	
 	@Override
 	protected void layout() {	
@@ -67,11 +80,11 @@ public class MultiLEDFigure extends AbstractMultiFigure {
 			bulbBounds.shrink(OUTLINE_WIDTH, OUTLINE_WIDTH);
 			bulb.setBounds(bulbBounds);
 		}		
-		if(boolLabel.isVisible()){
-			Dimension labelSize = boolLabel.getPreferredSize();				
-			boolLabel.setBounds(new Rectangle(bulbBounds.x + bulbBounds.width/2 - labelSize.width/2,
-					bulbBounds.y + bulbBounds.height/2 - labelSize.height/2,
-					labelSize.width, labelSize.height));
+		if(label.isVisible()){
+			Dimension labelSize = label.getPreferredSize();				
+			label.setBounds(new Rectangle(bulbBounds.x + bulbBounds.width/2 - labelSize.width/2,
+											bulbBounds.y + bulbBounds.height/2 - labelSize.height/2,
+											labelSize.width, labelSize.height));
 		}
 		super.layout();
 	}
@@ -132,12 +145,12 @@ public class MultiLEDFigure extends AbstractMultiFigure {
 				
 				//draw light
 				clientArea.shrink(SQURE_BORDER_WIDTH, SQURE_BORDER_WIDTH);
-				Color fillColor = booleanValue?onColor:offColor;
-		        graphics.setBackgroundColor(fillColor);
+				//Color fillColor = booleanValue?onColor:offColor;
+		        graphics.setBackgroundColor(stateColors[state]);
 		        graphics.fillRectangle(clientArea);
 				pattern = GraphicsUtil.createScaledPattern(graphics, Display.getCurrent(), clientArea.x,	clientArea.y,
 		        		clientArea.x + clientArea.width, clientArea.y + clientArea.height,
-		        		WHITE_COLOR, 200, fillColor, 0);
+		        		WHITE_COLOR, 200, stateColors[state], 0);
 		        graphics.setBackgroundPattern(pattern);
 		       	graphics.fillRectangle(clientArea);		
 		       	pattern.dispose();
@@ -149,8 +162,8 @@ public class MultiLEDFigure extends AbstractMultiFigure {
 				graphics.drawRectangle(clientArea);
 				
 				clientArea.shrink(SQURE_BORDER_WIDTH/2, SQURE_BORDER_WIDTH/2);
-				Color fillColor = booleanValue?onColor:offColor;
-		        graphics.setBackgroundColor(fillColor);
+				//Color fillColor = booleanValue?onColor:offColor;
+		        graphics.setBackgroundColor(stateColors[state]);
 		        graphics.fillRectangle(clientArea);
 			}
 			
@@ -179,41 +192,76 @@ public class MultiLEDFigure extends AbstractMultiFigure {
 	/**
 	 * @param effect3D the effect3D to set
 	 */
-	public void setEffect3D(boolean effect3D) {
-		if(this.effect3D == effect3D)
-			return;
-		this.effect3D = effect3D;
-		bulb.setEffect3D(effect3D);
+//	public void setEffect3D(boolean effect3D) {
+//		if(this.effect3D == effect3D)
+//			return;
+//		this.effect3D = effect3D;
+//		bulb.setEffect3D(effect3D);
+//	}
+	
+	//@Override
+	//public void setOffColor(Color offColor) {
+	//	super.setOffColor(offColor);
+	//	if(!booleanValue  && bulb.isVisible())
+	//		bulb.setBulbColor(offColor);
+	//}
+
+	//@Override
+	//public void setOnColor(Color onColor) {
+	//	super.setOnColor(onColor);
+	//	if(booleanValue && bulb.isVisible())
+	//		bulb.setBulbColor(onColor);
+	//}
+
+	@Override
+	public void setStateColor(int state, Color color) {
+		super.setStateColor(state, color);
+		if(this.state == state) {
+			setBulbColor(stateColors[state]);
+		}
+	}
+
+	@Override
+	public void setState(int state) {
+		super.setState(state);
+		setBulbColor(stateColors[state]);
+		
 	}
 	
-	@Override
-	public void setOffColor(Color offColor) {
-		super.setOffColor(offColor);
-		if(!booleanValue  && bulb.isVisible())
-			bulb.setBulbColor(offColor);
+	protected void setBulbColor(Color color) {
+//		if(color.getRed() > 128 || color.getGreen() > 128 || color.getBlue() > 128) {
+//			label.getFont().
+//		} else {
+//			label.setForegroundColor(BLACK_COLOR);
+//		}
+	
+		bulb.setBulbColor(color);
+		
+		
+//		ublic Color IdealTextColor(Color bg)
+//		{
+//		    int nThreshold = 105;
+//		    int bgDelta = Convert.ToInt32((bg.R * 0.299) + (bg.G * 0.587) + 
+//		                                  (bg.B * 0.114));
+//
+//		    Color foreColor = (255 - bgDelta < nThreshold) ? Color.Black : Color.White;
+//		    return foreColor;
+//		}
 	}
-
-	@Override
-	public void setOnColor(Color onColor) {
-		super.setOnColor(onColor);
-		if(booleanValue && bulb.isVisible())
-			bulb.setBulbColor(onColor);
-	}
-
+	
 	/**
 	 * @param squareLED the squareLED to set
 	 */
-	public void setSquareLED(boolean squareLED) {
+	/*public void setSquareLED(boolean squareLED) {
 		if(this.squareLED == squareLED)
 			return;
 		this.squareLED = squareLED;
 		bulb.setVisible(!squareLED);
 	}
-
-	@Override
-	protected void updateBoolValue() {
-		super.updateBoolValue();
-		bulb.setBulbColor(booleanValue ? onColor : offColor);
-		
-	}
+*/
+	//@Override
+	//protected void updateBoolValue() {
+	//	super.updateBoolValue();
+	//	bulb.setBulbColor(booleanValue ? onColor : offColor);	
+	//}
 }

@@ -50,7 +50,7 @@ public class MultiLEDModel extends AbstractMultiWidgetModel {
 		
 		addProperty(new BooleanProperty(PROP_SQUARE_LED, "Square LED", 
 				WidgetPropertyCategory.Display, false));
-		setPropertyVisible(PROP_BOOL_LABEL_POS, false);
+		setPropertyVisible(PROP_LABEL_POS, false);
 	}
 	/**
 	 * The ID of this widget model.
