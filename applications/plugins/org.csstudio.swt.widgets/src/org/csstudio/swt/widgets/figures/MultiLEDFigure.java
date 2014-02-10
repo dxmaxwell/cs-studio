@@ -229,16 +229,14 @@ public class MultiLEDFigure extends AbstractMultiFigure {
 	}
 	
 	protected void setBulbColor(Color color) {
-//		if(color.getRed() > 128 || color.getGreen() > 128 || color.getBlue() > 128) {
-//			label.getFont().
-//		} else {
-//			label.setForegroundColor(BLACK_COLOR);
-//		}
-	
+		// These brightness weightings and threshold determined experimentally.		
+		if((color.getRed() * 299) + (color.getGreen() * 587) + (color.getBlue() * 114) > 105000) {
+			label.setForegroundColor(BLACK_COLOR);
+		} else {
+			label.setForegroundColor(WHITE_COLOR);
+		}
 		bulb.setBulbColor(color);
-		
-		
-//		ublic Color IdealTextColor(Color bg)
+//		public Color IdealTextColor(Color bg)
 //		{
 //		    int nThreshold = 105;
 //		    int bgDelta = Convert.ToInt32((bg.R * 0.299) + (bg.G * 0.587) + 
